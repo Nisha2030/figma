@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Figma Notes</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+    }
+
+    header {
+      background: #222;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      padding: 40px 0;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .card h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: #555;
+      line-height: 1.5;
+    }
+
+    .btn {
+      margin-top: 15px;
+      padding: 10px 15px;
+      background: #222;
+      color: white;
+      text-align: center;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 14px;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #05640d;
+    }
+    
+    @media (max-width: 480px) {
+      header {
+        font-size: 22px;
+        padding: 15px;
+      }
+      .card h2 {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>Figma Notes</header>
+
+  <div class="container">
+
+    <div class="card">
+      <h2>What is UI/UX</h2>
+      <p>UI/UX focuses on user interface and user experience to create intuitive digital designs.</p>
+      <a href="uiux.html" class="btn">Explore More</a>
+    </div>
+
+    <div class="card">
+      <h2>UI/UX Design Principles</h2>
+      <p>Learn core design rules like hierarchy, alignment, spacing, and visual balance.</p>
+      <a href="principles.html" class="btn">Explore More</a>
+    </div>
+
+    <div class="card">
+      <h2>Usability in UI/UX Design</h2>
+      <p>Understand how usability ensures easy, smooth, and efficient user interactions.</p>
+      <a href="usability.html" class="btn">Explore More</a>
+    </div>
+
+    <div class="card">
+      <h2>Information Architecture (IA)</h2>
+      <p>IA helps structure and organize information for better navigation and clarity.</p>
+      <a href="#" class="btn">Explore More</a>
+    </div>
+
+    <div class="card">
+      <h2>Qualitative & Quantitative Analysis</h2>
+      <p>Explore research methods that analyze user behavior using data and feedback.</p>
+      <a href="#" class="btn">Explore More</a>
+    </div>
+
+    <div class="card">
+      <h2>User Research</h2>
+      <p>User research uncovers needs, problems, and motivations to design better products.</p>
+      <a href="#" class="btn">Explore More</a>
+    </div>
+
+
+
+  </div>
+</body>
+</html>
